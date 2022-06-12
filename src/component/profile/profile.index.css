@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 1px 5px 0 rgb(209, 209, 209);
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+
+}
+.bio h3 {
+    margin: 20px 5px 0;
+    padding: 0;
+}
+.bio p {
+    margin: 0;
+    padding: 0;
+}
+
+.skills {
+    width: 6rem;
+}
+.skills ul {
+    margin: 0;
+    padding: 0;
+}
+.skills h3 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+.skills ul li {
+    list-style-type: none;
+    display: block;
+    background-color: #eee;
+    margin-bottom: 4px;
+    padding: 0 10px;
+    color: rgb(31, 31, 31);
+}
+
+.social ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10px;
+    text-transform: none;
+    background-color: #eee;
+    padding: 5px 10px;
+
+}
+.social ul li a {
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+}
+.social ul li:hover {
+    background-color: antiquewhite;
+}
